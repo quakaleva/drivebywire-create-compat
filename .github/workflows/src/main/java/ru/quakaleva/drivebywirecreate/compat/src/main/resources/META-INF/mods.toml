@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="drivebywire_create"
+version="1.0.0"
+displayName="Drive-By-Wire Create Compat"
+
+[[dependencies.drivebywire_create]]
+modId="drivebywire"
+mandatory=true
+
+[[dependencies.drivebywire_create]]
+modId="create"
+mandatory=true
